@@ -1,0 +1,51 @@
+<svg _ngcontent-c2="" xmlns:xlink="http://www.w3.org/1999/xlink" class="svg" id="svg" viewBox="0 0 540 540" xmlns="http://www.w3.org/2000/svg">
+    
+    <text _ngcontent-c2="" font-size="22" font-weight="bold" id="svg-diagram-title" text-anchor="middle" x="50%" y="20">Data Science Venn Diagram</text>
+    
+    <g _ngcontent-c2="" id="segments-group">
+      
+      <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><g _ngcontent-c2="" data-index="0" id="segment-group-0">
+        <ellipse _ngcontent-c2="" id="segment-0" cx="311.6160089700666" cy="124.44152910561641" rx="81.43526557632097" ry="67.48930021832612" transform="rotate(-90 311.6160089700666 124.44152910561641)" style="fill: rgb(178, 223, 138); fill-opacity: 0.6; stroke: rgb(202, 178, 214); stroke-width: 2;">
+        </ellipse>
+      </g><g _ngcontent-c2="" data-index="1" id="segment-group-1">
+        <ellipse _ngcontent-c2="" id="segment-1" cx="374.41763124126106" cy="111.17088915684778" rx="86.56756048196895" ry="83.73924847745533" transform="rotate(-45 374.41763124126106 111.17088915684778)" style="fill: rgb(251, 154, 153); fill-opacity: 0.6; stroke: rgb(106, 61, 154); stroke-width: 2;">
+        </ellipse>
+      </g><g _ngcontent-c2="" data-index="2" id="segment-group-2">
+        <ellipse _ngcontent-c2="" id="segment-2" cx="51.61415999695578" cy="85.85658678352752" rx="92.13597704316919" ry="90.82730799282317" transform="rotate(0 51.61415999695578 85.85658678352752)" style="fill: rgb(251, 154, 153); fill-opacity: 0.6; stroke: rgb(227, 26, 28); stroke-width: 2;">
+        </ellipse>
+      </g><g _ngcontent-c2="" data-index="3" id="segment-group-3">
+        <ellipse _ngcontent-c2="" id="segment-3" cx="309.36186479420263" cy="107.96893232845024" rx="88.91336072117103" ry="49.43894913397309" transform="rotate(45 309.36186479420263 107.96893232845024)" style="fill: rgb(253, 191, 111); fill-opacity: 0.6; stroke: rgb(255, 127, 0); stroke-width: 2;">
+        </ellipse>
+      </g><g _ngcontent-c2="" data-index="4" id="segment-group-4">
+        <ellipse _ngcontent-c2="" id="segment-4" cx="219.3152200869804" cy="381.10366223852105" rx="87.9861595604066" ry="93.1525391411459" transform="rotate(-90 219.3152200869804 381.10366223852105)" style="fill: rgb(166, 227, 212); fill-opacity: 0.6; stroke: rgb(106, 61, 154); stroke-width: 2;">
+        </ellipse>
+      </g>
+    </g>  
+    
+    <g _ngcontent-c2="" id="segment-labels-group">
+      
+      <text _ngcontent-c2="" font-size="18" font-weight="bold" id="intersection-label" text-anchor="middle" x="50%" y="50%">Data Science</text>
+      <!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><g _ngcontent-c2="" data-index="0" id="segment-label-group-0">
+        <text _ngcontent-c2="" font-size="16" text-anchor="middle" id="segment-label-0" x="311.6160089700666" y="124.44152910561641" transform="rotate(-90 311.6160089700666 124.44152910561641)">Math &amp; Stats</text>
+      </g><g _ngcontent-c2="" data-index="1" id="segment-label-group-1">
+        <text _ngcontent-c2="" font-size="16" text-anchor="middle" id="segment-label-1" x="374.41763124126106" y="111.17088915684778" transform="rotate(-45 374.41763124126106 111.17088915684778)">Domain Expertise</text>
+      </g><g _ngcontent-c2="" data-index="2" id="segment-label-group-2">
+        <text _ngcontent-c2="" font-size="16" text-anchor="middle" id="segment-label-2" x="51.61415999695578" y="85.85658678352752" transform="rotate(0 51.61415999695578 85.85658678352752)">setUserModelInfoong</text>
+      </g><g _ngcontent-c2="" data-index="3" id="segment-label-group-3">
+        <text _ngcontent-c2="" font-size="16" text-anchor="middle" id="segment-label-3" x="309.36186479420263" y="107.96893232845024" transform="rotate(45 309.36186479420263 107.96893232845024)">setUserModelInfoong</text>
+      </g><g _ngcontent-c2="" data-index="4" id="segment-label-group-4">
+        <text _ngcontent-c2="" font-size="16" text-anchor="middle" id="segment-label-4" x="219.3152200869804" y="381.10366223852105" transform="rotate(-90 219.3152200869804 381.10366223852105)">setUserModelInfoong</text>
+      </g>
+    </g>  
+    
+    <g _ngcontent-c2="" id="created-by-group">
+      <text _ngcontent-c2="" font-size="10" x="10" y="530">created by: </text>
+      <a _ngcontent-c2="" xlink:href="https://venn-diagrams.herokuapp.com">
+        <text _ngcontent-c2="" font-size="10" heigt="20" x="60" y="530">https://venn-diagrams.herokuapp.com</text>
+      </a>
+    </g>
+  </svg>
