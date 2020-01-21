@@ -41,7 +41,6 @@ render() {
 
   return (
     <div className="App" >
-     <button className="nav-btn" onClick={() =>this.state.operation()}>KLICK	</button>
          {
            this.state.showMe?
            <Nav/>  
