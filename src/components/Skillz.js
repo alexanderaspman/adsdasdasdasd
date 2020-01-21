@@ -44,7 +44,7 @@ class Skillz extends React.Component  {
                   <div className="mt-5">
                             <div className="skillCard" > <img src={react} /> </div>     
                                       <h3 className="h4 mb-2">React</h3>
-                      <p className="text-muted mb-0"style={{color:"#ffffff"}}>I have a good understanding of react but I am learning react-typescript there my knowleadg is a litle better then top of basic</p>
+                      <p className="text mb-0"style={{color:"#ffffff"}}>I have a good understanding of react but I am learning react-typescript there my knowleadg is a litle better then top of basic</p>
                   </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
@@ -52,7 +52,7 @@ class Skillz extends React.Component  {
                   <div className="skillCard" >  <img src={Html} className="skillCard" /></div>
   
         <h3 className="h4 mb-2">Html/CSS</h3>
-                      <p className="text-muted mb-0" style={{color:"white",}}>Very good understanding but loeth. I want a challange</p>
+                      <p className="text mb-0" style={{color:"white",}}>Very good understanding but loeth. I want a challange</p>
                 
                   </div>
               </div>
@@ -62,14 +62,14 @@ class Skillz extends React.Component  {
   
   
   <h3 className="h4 mb-2">Javascript/jquery</h3>
-                      <p className="text-muted mb-0"style={{color:"#ffffff"}}>I really like jquery and i would easely say thats where my greatest Skillz catagory lies under. Atleast a month a go I would, but I realy like React and will probably say that is it soon. </p>
+                      <p className="text mb-0"style={{color:"#ffffff"}}>I really like jquery and i would easely say thats where my greatest Skillz catagory lies under. Atleast a month a go I would, but I realy like React and will probably say that is it soon. </p>
                   </div>
               </div>
               <div className="col-lg-3 col-md-6 text-center">
                   <div className="mt-5">
                   <div className="skillCard" >    <img src={ts} className="skillCard" /></div>
                       <h3 className="h4 mb-2">Typescript</h3>
-                      <p className="text-muted mb-0"style={{color:"#ffffff"}}>I been learning ts for 10weeks during my internship, give me a payed month where there is the only thing I may focus on and I will be able to code usefull stuff</p>
+                      <p className="text mb-0"style={{color:"#ffffff"}}>I been learning ts for 10weeks during my internship, give me a payed month where there is the only thing I may focus on and I will be able to code usefull stuff</p>
                   </div>
               </div>
           </div>
