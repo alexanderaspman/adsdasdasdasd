@@ -1,9 +1,26 @@
-import React , {Component} from 'react'
+import React , {Component} from 'react';
+import Skillz from './Skillz'
 class Info extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
+  constructor(props) {
+    super(props);
+    this.state={
+        showMe:false,
+     };
+      
+      }
+    operation(){
+    
+      this.setState({
+        showMe:! this.state.showMe
+    
+      });
+      
     }
+    
+    
+
+
+
     render() {  const myFunction= ()=>{
             
             
@@ -40,21 +57,32 @@ class Info extends Component {
           }
           
         }
-        return ( <section class="page-section bg-primary" id="about" trigger={myFunction()}>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2  class="text-white mt-0 delay" style={{color:'white'}}>I have thurst for coding which never will be filled, and I always like to learn the newer intersting frameworks becaouse I believe its helfy <br /> NOT to feel like your brilliant all the time</h2>
-                    <hr class="divider light my-4" />
+
+        return ( <section className="page-section bg-primary" id="about" trigger={myFunction()}>
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-lg-8 text-center">
+                    <h2  className="text-white mt-0 delay" style={{color:'white'}}>I have thirst for coding which never will be filled, and I always like to learn the newer interesting frameworks because I believe it's healthy <br /> NOT to feel like your brilliant all the time</h2>
+                    <hr className="divider light my-4" />
     
-                    <p class="text-white-50 mb-4">I have gone to art-school for a year befor studying frontend on Nackademin in Stockholm and why i didnt focus on further studies inte coding after the Gymnaisum, was becouse back then it wasnt ass big. And I thought this is to fun who would ever oay me for this.</p>
-                    <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get informed about my job specification !</a>
+                    <p className="text-white-50 mb-4">I have gone to art-school for a year befor studying frontend on Nackademin in Stockholm and why i didnt focus on further studies inte coding after the Gymnaisum, was becouse back then it wasnt ass big. And I thought this is to fun and who would ever pay me for this.</p>
+                    <a className="btn btn-light btn-xl js-scroll-trigger" onClick={() =>  this.operation() } href="#services">Get informed about my job specification !</a>
                 </div>
             </div>
         </div>
-    </section> );
-    }
+        {
+           this.state.showMe?
+        
+    <Skillz/>
+       
+       
+       :null
 }
+    </section> 
+           
+               );
+    }
+};
  
 export default Info
 

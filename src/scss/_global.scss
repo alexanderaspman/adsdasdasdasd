@@ -22,6 +22,11 @@ hr.divider {
   transition: 2.2s;
   transition: all 2.2s ease-out;
 }
+.mb-0{
+  color: #000;
+}
+.text-muted{
+  color:#ffffff}
 .delay-show{
   opacity: 1;
 }
@@ -32,6 +37,25 @@ hr.light {
 // Button restyling
 .btn {
   font-family: $font-family-sans-serif;
+}
+
+.fadeOut{
+
+  opacity: 0;
+    -webkit-transition: 1.2s;
+    transition: 1.2s;
+    transition: all 1.2s ease-out;
+    margin-left: 300px;
+    color: wheat;
+
+}
+.p{
+  color: white;
+}
+
+.fadeIn{
+  opacity: 1;
+  margin-left: -300px;
 }
 
 .btn-xl {

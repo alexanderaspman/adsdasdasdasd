@@ -5,10 +5,10 @@ import React from 'react'
 class TopInformation extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {  }
+        this.state = {  };
     }
     render() { 
-        const myFunction= ()=>{
+        const myFunction = () =>{
             
             
                           
@@ -49,7 +49,7 @@ class TopInformation extends React.Component {
             <div className="row h-100 align-items-center justify-content-center text-center">
                 <div className="col-lg-10  delay-left">
                 <h1 className="text-uppercase text-white font-weight-bold delay-left">ALexander Aspman<br />  Frontend programmer</h1>
-        <h3> whoe dabbels alot in both backend and webdesign</h3>
+        <h3> who dabbles a lot in both backend and web design</h3>
 
 
                     <hr className="divider my-4" />
