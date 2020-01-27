@@ -1,10 +1,10 @@
 
 
 import React,{Component}  from 'react';
-import react from '../images/react.svg';
-import jst from '../images/js.svg';
+import react from '../images/react.png';
+import jst from '../images/js.png';
 import net from '../images/net.svg';
-import Html from '../images/Html.svg';
+import Html from '../images/Html.png';
 import ts from  '../images/ts.png';
 
 
