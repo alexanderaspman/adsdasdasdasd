@@ -1,7 +1,7 @@
 
 
 import React,{Component}  from 'react';
-import react from '../images/react.png';
+import react from '../images/React.png';
 import jst from '../images/js.png';
 import net from '../images/net.svg';
 import Html from '../images/Html.png';
