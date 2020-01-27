@@ -42,7 +42,7 @@ class Skillz extends React.Component  {
           <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
                   <div className="mt-5">
-                            <div className="skillCard" > <img src={react} /> </div>     
+                            <div className="skillCard" > <img className="skillCard1" src={react} /> </div>     
                                       <h3 className="h4 mb-2">React</h3>
                       <p className="text mb-0"style={{color:"#ffffff"}}>I have a good understanding of react but I am learning react-typescript there my knowleadg is a litle better then top of basic</p>
                   </div>

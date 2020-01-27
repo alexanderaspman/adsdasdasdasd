@@ -14,19 +14,19 @@ header.masthead {
       -webkit-transition: 1.2s;
       transition: 1.2s;
       transition: all 1.2s ease-out;
-      margin-left: 300px;
+      margin-right: -350px;
       color: wheat;
   
   }
 
   .delay--enter{
     opacity: 1;
-    margin-left: -300px;
+    margin-right: 300px;
     color: white
 
   }
   h1 {
-    margin-top: 300px;
+    margin-top: 200px;
     font-size: 2.25rem;
   }
   @include media-breakpoint-up(lg) {
@@ -40,25 +40,8 @@ header.masthead {
     h1 {
       font-size: 3rem;
       text-align: center;
-      margin-left: 300px;
     }
-    .delay-left{
-
-      opacity: 0;
-        -webkit-transition: 1.2s;
-        transition: 1.2s;
-        transition: all 1.2s ease-out;
-       
-        color: wheat;
     
-    }
-  
-    .delay--enter{
-      opacity: 1;
-     
-      color: white
-  
-    }
     h3{
 color: rgba($color: #2d2121, $alpha: 1.0)    }
   }
@@ -66,5 +49,9 @@ color: rgba($color: #2d2121, $alpha: 1.0)    }
     h1 {
       font-size: 3.5rem;
     }
+    h3{
+      margin-left: 200px;
+    }
+    
   }
 }
