@@ -48,6 +48,7 @@ color: rgba($color: #2d2121, $alpha: 1.0)    }
   @include media-breakpoint-up(xl) {
     h1 {
       font-size: 3.5rem;
+      margin: auto;
     }
     h3{
       margin-left: 200px;
