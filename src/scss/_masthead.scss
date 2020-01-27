@@ -42,6 +42,23 @@ header.masthead {
       text-align: center;
       margin-left: 300px;
     }
+    .delay-left{
+
+      opacity: 0;
+        -webkit-transition: 1.2s;
+        transition: 1.2s;
+        transition: all 1.2s ease-out;
+       
+        color: wheat;
+    
+    }
+  
+    .delay--enter{
+      opacity: 1;
+     
+      color: white
+  
+    }
     h3{
 color: rgba($color: #2d2121, $alpha: 1.0)    }
   }
