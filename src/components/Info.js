@@ -66,18 +66,13 @@ class Info extends Component {
                     <hr className="divider light my-4" />
     
                     <p className="text-white-50 mb-4">I have gone to art-school for a year befor studying frontend on Nackademin in Stockholm and why i didnt focus on further studies inte coding after the Gymnaisum, was becouse back then it wasnt ass big. And I thought this is to fun and who would ever pay me for this.</p>
-                    <a className="btn btn-light btn-xl js-scroll-trigger" onClick={() =>  this.operation() } href="#services">Get informed about my job specification !</a>
                 </div>
             </div>
         </div>
-        {
-           this.state.showMe?
-        
+    
     <Skillz/>
        
-       
-       :null
-}
+   
     </section> 
            
                );
