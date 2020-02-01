@@ -62,22 +62,20 @@ class Info extends Component {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-8 text-center">
-                    <h2  className="text-white mt-0 delay" style={{color:'white'}}>I have thirst for coding which never will be filled, and I always like to learn the newer interesting frameworks because I believe it's healthy <br /> NOT to feel like your brilliant all the time</h2>
+                    <h2  className="text-white mt-0 delay" style={{color:'white'}}>I have a thirst for coding which never will be filled, and I always like to learn the newest framework because I believe it's healthy <br/>NOT to feel like your brilliant all the time.</h2>
                     <hr className="divider light my-4" />
     
-                    <p className="text-white-50 mb-4">I have gone to art-school for a year befor studying frontend on Nackademin in Stockholm and why i didnt focus on further studies inte coding after the Gymnaisum, was becouse back then it wasnt ass big. And I thought this is to fun and who would ever pay me for this.</p>
-                    <a className="btn btn-light btn-xl js-scroll-trigger" onClick={() =>  this.operation() } href="#services">Get informed about my job specification !</a>
+                    <p className="text-white-50 mb-8">I have studied art for a year before I started studying front-end development at Nackademin in Stockholm. I have always had an eye for the artistic and an interest for code. To be able to combine these two are beneficial for working with web design.</p>
                 </div>
             </div>
         </div>
-        {
-           this.state.showMe?
+        <br/>
+        <hr className="divider-black dark my-4" />
+
         
     <Skillz/>
        
        
-       :null
-}
     </section> 
            
                );

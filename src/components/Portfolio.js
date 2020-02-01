@@ -45,6 +45,8 @@ class Portfolio extends Component {
        return( 
         <section id="portfolio" >
         <div className="container-fluid p-0">
+        <h1  className="text-white mt-0 delay" style={{color:'white'}}>This is some off my past creations.</h1>
+
             <div className="row no-gutters">
                 <div className="col-lg-4 col-sm-6">
                     <a className="portfolio-box" onClick={() => this.setState({ isOpen: true })}>

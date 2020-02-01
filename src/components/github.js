@@ -15,7 +15,7 @@ class Github extends Component {
     <Portfolio data={this.state.post} />
   <div className="container text-center">
     <h2 className="mb-4">Free Download of my Codes @ github</h2>
-    <a className="btn btn-light btn-xl" href="https://www.github.com/alexanderaspman">Check Me Out, Now!</a>
+    <a className="btn btn-light btn-xl" href="https://www.github.com/alexanderaspman">Check Out My Github, Now!</a>
   </div>
   </section> );
   }

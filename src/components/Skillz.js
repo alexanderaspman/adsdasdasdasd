@@ -37,7 +37,7 @@ class Skillz extends React.Component  {
              
 
             <div className="container">
-          <h2 className="text-center mt-0">Skillz</h2>
+          <h2 className="text-center mt-10 mb-4 h1">Skillz</h2>
           <hr className="divider my-4" />
           <div className="row">
               <div className="col-lg-3 col-md-6 text-center">
