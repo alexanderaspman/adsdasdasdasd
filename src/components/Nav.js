@@ -4,22 +4,37 @@ import $ from 'jquery';
 class Nav extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {  }
-  }
-  render() { {
+    this.state={
+        showMe:false,
+     };
+      
+      }
+    
+    
+    
+      operation(){
+    
+        this.setState({
+          showMe:! this.state.showMe
+      
+        });
+        
+      }
 
-    $('.js-scroll-trigger').click(function () {
-      $('.navbar-collapse').collapse('hide');
-  });
+  render() { 
     
   
-  }
+    
+  
+
     return (<nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div className="container">
       <a className="navbar-brand js-scroll-trigger" href="#top">På Toppen</a>
-      <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+      <button className="navbar-toggler navbar-toggler-right"  type="button" data-toggle="collapse" onClick={() =>  this.operation()} data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span  className="navbar-toggler-icon"></span>
       </button>
+     
+
       <div className="collapse navbar-collapse" id="navbarResponsive">
         <ul className="navbar-nav ml-auto my-2 my-lg-0">
           <li className="nav-item">
@@ -37,6 +52,11 @@ class Nav extends React.Component {
           </li>
         </ul>
       </div>
+      {
+           this.state.showMe?
+
+           <div id="navbarResponsive"><ul class="navbar-nav ml-auto my-2 my-lg-0"><li className="nav-item"><a className="js-scroll-trigger" href="#about">About</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#services">Job specialties</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact</a></li></ul></div>
+      :null}
         </div>
     
     </nav>  );

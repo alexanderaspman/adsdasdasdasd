@@ -8,7 +8,7 @@ const ContactInfo = () => <section className="page-section" id="contact">
 <div className="container">
   <div className="row justify-content-center">
     <div className="col-lg-8 text-center">
-      <h2 className="mt-0">Need a frontend designer, well your in luck!</h2>
+      <h2 className="mt-0">Need a frontend developer, well your in luck!</h2>
       <hr className="divider my-4"/>
       <p className="text-muted mb-5">Call me on my phone or email listed here, when you ready to start our next project!</p>
     </div>
