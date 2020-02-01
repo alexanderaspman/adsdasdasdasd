@@ -55,7 +55,7 @@ class Nav extends React.Component {
       {
            this.state.showMe?
 
-           <div id="navbarResponsive"><ul class="navbar-nav ml-auto my-2 my-lg-0"><li className="nav-item"><a className="js-scroll-trigger" href="#about">About</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#services">Job specialties</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact</a></li></ul></div>
+           <div id="navbarResponsive"><ul className="navbar-nav ml-auto my-2 my-lg-0"><li className="nav-item"><a className="js-scroll-trigger" href="#about">About</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#services">Job specialties</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li><li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Contact</a></li></ul></div>
       :null}
         </div>
     
