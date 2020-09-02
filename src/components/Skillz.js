@@ -65,11 +65,7 @@ class Skillz extends React.Component  {
                       <p className="text mb-0"style={{color:"#ffffff"}}>I really like jquery and i would easely say thats where my greatest Skillz catagory lies under. Atleast a month a go I would, but I realy like React and will probably say that is it soon. </p>
                   </div>
               </div>
-<<<<<<< HEAD
-              <div className="col-lg-3 col-md-6 text-center delay 200">
-=======
               <div className="col-lg-3 col-md-6 text-center delay">
->>>>>>> new-branch
                   <div className="mt-5">
                   <div className="skillCard" >    <img src={ts} className="skillCard" /></div>
                       <h3 className="h4 mb-2">Typescript</h3>
