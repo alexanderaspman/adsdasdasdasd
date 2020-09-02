@@ -49,7 +49,7 @@ class Portfolio extends Component {
 
             <div className="row no-gutters">
                 <div className="col-lg-4 col-sm-6">
-                    <a className="portfolio-box" onClick={() => this.setState({ isOpen: true })}>
+                    <a className="portfolio-box" href="https://cocky-johnson-891fb3.netlify.app/" onClick={() => this.setState({ isOpen: true })}>
                         <img className="img-fluid" src={Vaskaorder} alt="" />
                         <div className="portfolio-box-caption">
                             <div className="project-category text-white-50">
@@ -77,14 +77,15 @@ class Portfolio extends Component {
           </div>
         ))} */}
                 <div className="col-lg-4 col-sm-6 ">
-                    <a className="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+                    <a className="portfolio-box" href="https://elegant-edison-be84ae.netlify.app">
                         <img className="img-fluid" src={playStore} alt="" />
                         <div className="portfolio-box-caption">
                             <div className="project-category text-white-50">
                                 Frontend/Grafiskdesigner
               </div>
                             <div className="project-name">
-                                Spel webbsida
+                                Spel webbsida<br/>
+                                <b>Should only be seen on a computer</b>
               </div>
                         </div>
                     </a>
