@@ -27,12 +27,20 @@ class Info extends Component {
                           
                 
         function checkForVisibility() {
+<<<<<<< HEAD
             var headers = document.querySelectorAll(".delay","delay-2","delay-3","delay-3");
+=======
+            var headers = document.querySelectorAll(".delay","delay-2","delay-3");
+>>>>>>> new-branch
             headers.forEach(function(header) {
         
                 
               if (isElementInViewport(header)) {
+<<<<<<< HEAD
                return header.classList.add("delay-show","delay-show","delay-show","delay-show");
+=======
+               return header.classList.add("delay-show","delay-show","delay-show");
+>>>>>>> new-branch
                 
             }
                
