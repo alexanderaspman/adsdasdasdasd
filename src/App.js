@@ -41,11 +41,9 @@ render() {
 
   return (
     <div className="App" >
-         {
-           this.state.showMe?
+        
            <Nav/>  
-    	  :null
-    }
+    	 
          
         <Header/>
           <Info/> 

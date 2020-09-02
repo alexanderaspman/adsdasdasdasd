@@ -2,13 +2,13 @@ import React , {Component} from 'react'
 
 
 import Portfolio from './Portfolio';
-class Github extends Component {
+class Github extends React.Component {
   constructor(props) {
     super(props);
     this.state = { post: [
       { id: 1, src: "../images/perdyg.svg" },
       
-    ] }
+    ] };
   }
   render() { 
     return ( <section className="page-section bg-dark text-white">

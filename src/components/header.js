@@ -48,8 +48,13 @@ class TopInformation extends React.Component {
         <div className="container h-100">
             <div className="row h-100 align-items-center justify-content-center text-center">
                 <div className="col-lg-10  delay-left">
+<<<<<<< HEAD
                 <h1 className="text-uppercase text-white-30 font-weight-bold delay-left">ALexander Aspman<br />  Frontend programmer</h1>
         <h3 className="text-white-50 mb-8"> dabbles in both backend and web design</h3>
+=======
+                <h1 className="text-uppercase -white-30 font-weight-bold delay-left">ALexander Aspman<br />  Frontend programmer</h1>
+        <h3> who dabbles a lot in both backend and web design</h3>
+>>>>>>> c25b591e262fc7ec29d2b98b3010157afbd11da4
 
 
                     <hr className="divider my-4" />
