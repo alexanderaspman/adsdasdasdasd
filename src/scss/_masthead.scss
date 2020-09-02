@@ -1,11 +1,6 @@
 header.masthead {
-<<<<<<< HEAD
-  padding-top: 14rem;
-  padding-bottom: calc(6rem - #{$navbar-height});
-=======
   padding-top: 16rem;
   padding-bottom: calc(3rem - #{$navbar-height});
->>>>>>> c25b591e262fc7ec29d2b98b3010157afbd11da4
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
   background: linear-gradient(to bottom, #{fade-out($orange, .99)} 0%,#{fade-out($orange, .2)} 100%), url('../images/profilbild.jpg');
@@ -62,13 +57,9 @@ header.masthead {
     h1 {
       font-size: 3rem;
       text-align: center;
-<<<<<<< HEAD
       margin-top: 40%;
       margin-left: 10%;
 
-=======
-      margin-top: 20% ;
->>>>>>> c25b591e262fc7ec29d2b98b3010157afbd11da4
     }
     
     h3{
@@ -77,11 +68,7 @@ color: rgba($color: #2d2121, $alpha: 1.0)    }
   @include media-breakpoint-up(xl) {
     h1 {
       font-size: 3.5rem;
-<<<<<<< HEAD
-      margin-left: 10%;
-=======
       margin-bottom: -20% ;
->>>>>>> c25b591e262fc7ec29d2b98b3010157afbd11da4
     }
     h3{
       margin-right: -200px;    }
