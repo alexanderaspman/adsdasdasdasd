@@ -27,7 +27,7 @@ class Info extends Component {
                           
                 
         function checkForVisibility() {
-            var headers = document.querySelectorAll(".delay","delay-2","delay-3");
+            var headers = document.querySelectorAll(".delay","delay-1","delay-2","delay-3");
             headers.forEach(function(header) {
         
                 
